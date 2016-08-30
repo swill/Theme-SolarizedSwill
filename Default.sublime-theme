@@ -1,0 +1,288 @@
+[
+    //
+    // FOLD BUTTONS
+    //
+
+    {
+        "class": "fold_button_control",
+        "layer0.opacity": 0,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.texture": "Theme-SolarizedDark/Solarized/arrow.png",
+        "layer3.opacity": 0.4,
+        "layer3.inner_margin": 0,
+        "content_margin": [8,8]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "layer3.opacity": 0.8
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded"],
+        "layer3.texture": "Theme-SolarizedDark/Solarized/arrow-down.png"
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded","hover"]
+    },
+
+    //
+    // SIDEBAR - OPEN FILE ICONS
+    //
+
+    // Sidebar file close
+    {
+        "class": "close_button",
+        "layer0.texture": "",
+        "layer0.opacity": 0,
+        "layer0.inner_margin": 0,
+        "layer0.tint": [211,32,32], // D32020 - red
+        "content_margin": [8,8]
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.opacity": 1,
+        "layer0.texture": "Theme-SolarizedDark/Solarized/cross.png"
+    },
+
+    // Sidebar file dirty
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme-SolarizedDark/Solarized/circle@2x.png",
+        "layer0.opacity": 1,
+        "layer0.tint": [39,145,134], // 279186 - green
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.texture": "Theme-SolarizedDark/Solarized/cross.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.texture": "Theme-SolarizedDark/Solarized/cross.png",
+        "layer0.opacity": 1
+    },
+
+    // Sidebar file close hover
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme-SolarizedDark/Solarized/cross.png"
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
+        "layer0.texture": "Theme-SolarizedDark/Solarized/cross.png",
+        "layer0.opacity": 1
+    },
+
+
+    //
+    // SIDEBAR - GENERAL FILE ICONS
+    //
+
+    // Sidebar icons
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "content_margin": [0,0]
+    },
+
+    // Sidebar group closed
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [8,8],
+        "layer0.opacity": 0,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.texture": "Theme-SolarizedDark/Solarized/afterglow-folder-closed.png",
+        "layer3.tint": [38,139,210],  // 268BD2 - blue
+        "layer3.opacity": 1,
+        "layer3.inner_margin": 0
+    },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer3.tint":[38,139,210],  // 268BD2 - blue
+        "layer3.opacity": 0.6,
+    },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+    },
+
+    // Sidebar group open
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "layer0.opacity": 0,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.texture": "Theme-SolarizedDark/Solarized/afterglow-folder-open.png"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}]
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer3.texture": "Theme-SolarizedDark/Solarized/afterglow-folder-open.png"
+    },
+
+
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [88,110,117], // 586e75 - green/gray
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 3],
+        "indent": 12,
+        "indent_offset": 17,
+        "indent_top_level": false,
+        "layer0.tint": [4,32,41], // 042029 - blue/black
+        "layer0.opacity": 1.0,
+        "dark_content": false
+    },
+    {
+        "class": "tree_row",
+        "layer0.opacity": 0.0,
+    },
+    {
+        "class": "sidebar_heading",
+        "color": [131,148,150], // 839496 - gray
+        "font.bold": true,
+        "shadow_color": [0,0,0],
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_heading",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "shadow_color": [0, 0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "color": [131,148,150], // 839496 - gray
+        "font.bold": false,
+        "shadow_color": [0, 0, 0], 
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+		"color": [39,145,134], // 279186 - green
+		"shadow_color": [26, 26, 26], 
+		"shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["expandable"]}],
+        "font.bold": true,
+        "color": [38,139,210] // 268BD2 - blue
+    },
+
+    // Icon folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer3.texture":
+        {
+            "keyframes":
+            [
+                "Theme-SolarizedDark/Solarized/spinner7.png",
+                "Theme-SolarizedDark/Solarized/spinner6.png",
+                "Theme-SolarizedDark/Solarized/spinner5.png",
+                "Theme-SolarizedDark/Solarized/spinner4.png",
+                "Theme-SolarizedDark/Solarized/spinner3.png",
+                "Theme-SolarizedDark/Solarized/spinner2.png",
+                "Theme-SolarizedDark/Solarized/spinner1.png",
+                "Theme-SolarizedDark/Solarized/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075
+        },
+        "layer3.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+
+
+    //
+    // TAB BUTTONS
+    //
+
+    // Tab close button
+    {
+        "class": "tab_close_button",
+        "layer3.texture": "Theme-SolarizedDark/Solarized/cross.png",
+        "layer3.opacity": 1,
+        "layer3.tint": [131,148,150] // 839496 - gray
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "layer3.tint": [39,145,134], // 279186 - green
+        "layer3.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["hover"]}],
+        "layer3.texture": "Theme-SolarizedDark/Solarized/cross.png",
+        "layer3.opacity": 1,
+        "layer3.tint": [38,139,210]  // 268BD2 - blue
+    },
+
+    // Tab dirty button
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "layer3.texture": "Theme-SolarizedDark/Solarized/circle.png",
+        "layer3.tint": [39,145,134], // 279186 - green
+        "layer3.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "layer3.texture": "Theme-SolarizedDark/Solarized/cross.png",
+        "layer3.tint": [38,139,210], // 268BD2 - blue
+        "layer3.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["dirty","selected"]}]
+    }, 
+
+    //
+    // TAB LABELS
+    //
+
+    {
+        "class": "tab_label",
+        "fg": [131,148,150], // 839496 - gray
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "fg": [39,145,134], // 279186 - green
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["hover"]}],
+        "fg": [38,139,210] // 268BD2 - blue
+    },
+]
