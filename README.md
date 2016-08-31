@@ -3,6 +3,8 @@ Customized Solarized Dark Theme for ST3
 
 I love the Solarized Dark theme, I use it everywhere.  I use Sublime Text 3 as my default editor, and over the years I have been slowly tweaking the `color_scheme` to better suite my tastes.  The default light colored drawer didn't work for me, so I wrote a `theme` to match my `color_scheme`.  I hope you enjoy...
 
+![screenshot](https://raw.githubusercontent.com/swill/Theme-SolarizedSwill/master/screenshot.png "SolarizedSwill")
+
 **Install by cloning to:**
 ```
 /Users/USER/Library/Application Support/Sublime Text 3/Packages/Theme-SolarizedSwill
@@ -13,7 +15,7 @@ I love the Solarized Dark theme, I use it everywhere.  I use Sublime Text 3 as m
 Sublime Text > Preferences > Color Schemes > Theme-SolarizedSwill > SolarizedSwill
 ```
 
-You may notice that inside `Theme-SolarizedSwill` there is both `SolarizedSwill` and `SolarizedDark` as options.  The [`SolarizedDark`](http://tmtheme-editor.herokuapp.com/#!/editor/theme/Solarized%20(dark)) theme is the standard version which most of you are probably familiar with.  I included it in case you prefer that `color_scheme`.
+You may notice that inside `Theme-SolarizedSwill` there is both `SolarizedSwill` and `SolarizedDark` as options.  The [`SolarizedDark`](http://tmtheme-editor.herokuapp.com/#!/editor/theme/Solarized%20(dark)) color scheme is the standard version which most of you are probably familiar with.  I included it in case you prefer that `color_scheme`.
 
 Since this is the only Solarized Dark `theme` available to match the drawer and tabs with the `color_scheme`, I expect people will likely use it as a starting point for modifications.
 
