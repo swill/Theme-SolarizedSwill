@@ -13,7 +13,7 @@ I love the Solarized Dark theme, I use it everywhere.  I use Sublime Text 3 as m
 /Users/USER/Library/Application Support/Sublime Text 3/Packages/Theme-SolarizedSwill
 ```
 
-**Enabling by navigating to:**
+**Enable by navigating to:**
 ```
 Sublime Text > Preferences > Color Schemes > Theme-SolarizedSwill > SolarizedSwill
 ```
@@ -25,6 +25,12 @@ Sublime Text > Preferences > Color Schemes > Theme-SolarizedSwill > SolarizedSwi
 ```
 C:\Users\USER\AppData\Roaming\Sublime Text 3\Packages\Theme-SolarizedSwill
 ```
+
+**Enable by navigating to:**
+```
+Sublime Text > Preferences > Color Schemes > Theme-SolarizedSwill > SolarizedSwill
+```
+
 
 ## General Details
 
