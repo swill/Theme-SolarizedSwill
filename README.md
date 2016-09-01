@@ -6,7 +6,7 @@ I love the Solarized Dark theme, I use it everywhere.  I use Sublime Text 3 as m
 ![screenshot](https://raw.githubusercontent.com/swill/Theme-SolarizedSwill/master/screenshot.png "SolarizedSwill")
 
 
-### Install on Mac
+## Install on Mac
 
 **Clone to:**
 ```
@@ -19,14 +19,14 @@ Sublime Text > Preferences > Color Schemes > Theme-SolarizedSwill > SolarizedSwi
 ```
 
 
-### Install on Windows
+## Install on Windows
 
 **Clone to:**
 ```
 C:\Users\USER\AppData\Roaming\Sublime Text 3\Packages\Theme-SolarizedSwill
 ```
 
-### General Details
+## General Details
 
 You may notice that inside `Theme-SolarizedSwill` there is both `SolarizedSwill` and `SolarizedDark` as options.  The [`SolarizedDark`](http://tmtheme-editor.herokuapp.com/#!/editor/theme/Solarized%20(dark)) color scheme is the standard version which most of you are probably familiar with.  I included it in case you prefer that `color_scheme`.
 
