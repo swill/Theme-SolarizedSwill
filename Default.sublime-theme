@@ -285,4 +285,13 @@
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "fg": [38,139,210] // 268BD2 - blue
     },
+
+    //
+    // MINI MAP
+    //
+
+    {
+        "class": "minimap_control",
+        "viewport_color": [255,255,255,30]
+    },
 ]
